@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+{%block title%}
+Это Андер
+{%endblock%}
+{%block body%}
+<div class="container mt-5">
+    <h1>Здесь только центр и только правда</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" class="container form-control" placeholder="Альбом"><br>
+        <textarea name="intro" id="intro" class="container form-control" placeholder="Трек"></textarea><br>
+        <textarea name="text" id="text" class="container form-control" placeholder="Слова песни"></textarea><br>
+        <input type="submit" class="d-grid gap-2 col-6 mx-auto btn btn-success" value="Push me feel me">
+    </form>
+</div>
+{%endblock%}
